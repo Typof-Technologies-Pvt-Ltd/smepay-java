@@ -18,11 +18,11 @@ import in.smepay.internal.ApiClient;
  */
 public final class SMEPay {
   private final Environment environment;
-  final ApiClient api;
+  private final Payment payment;
 
   private SMEPay(Environment environment, ApiClient api) {
     this.environment = environment;
-    this.api = api;
+    this.payment = new Payment(api);
   }
 
   /**
@@ -32,6 +32,15 @@ public final class SMEPay {
    */
   public static Builder builder() {
     return new Builder();
+  }
+
+  /**
+   * Payment calls: create → initiate → getStatus.
+   *
+   * @return the payment API
+   */
+  public Payment payment() {
+    return payment;
   }
 
   /**
