@@ -11,7 +11,7 @@
 
   <name>SMEPay Java SDK</name>
   <description>Official Java SDK for the SMEPay External API (UPI payments).</description>
-  <url>https://github.com/mahi-qwe/smepay-java</url>
+  <url>https://github.com/Typof-Technologies-Pvt-Ltd/smepay-java</url>
 
   <licenses>
     <license>
@@ -30,15 +30,15 @@
   </developers>
 
   <scm>
-    <connection>scm:git:https://github.com/mahi-qwe/smepay-java.git</connection>
-    <developerConnection>scm:git:https://github.com/mahi-qwe/smepay-java.git</developerConnection>
-    <url>https://github.com/mahi-qwe/smepay-java</url>
+    <connection>scm:git:https://github.com/Typof-Technologies-Pvt-Ltd/smepay-java.git</connection>
+    <developerConnection>scm:git:https://github.com/Typof-Technologies-Pvt-Ltd/smepay-java.git</developerConnection>
+    <url>https://github.com/Typof-Technologies-Pvt-Ltd/smepay-java</url>
     <tag>HEAD</tag>
   </scm>
 
   <issueManagement>
     <system>GitHub</system>
-    <url>https://github.com/mahi-qwe/smepay-java/issues</url>
+    <url>https://github.com/Typof-Technologies-Pvt-Ltd/smepay-java/issues</url>
   </issueManagement>
 
   <properties>

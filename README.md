@@ -109,7 +109,7 @@ Use the SDK only on your server. Keep `clientSecret` in an environment variable,
 
 ## Example
 
-[`examples/FullFlow.java`](https://github.com/mahi-qwe/smepay-java/blob/main/examples/FullFlow.java): put `SMEPAY_CLIENT_ID` / `SMEPAY_CLIENT_SECRET` in `.env`, then `mvn -q compile; set -a; source .env; set +a; java -cp target/classes examples/FullFlow.java`.
+[`examples/FullFlow.java`](https://github.com/Typof-Technologies-Pvt-Ltd/smepay-java/blob/main/examples/FullFlow.java): put `SMEPAY_CLIENT_ID` / `SMEPAY_CLIENT_SECRET` in `.env`, then `mvn -q compile; set -a; source .env; set +a; java -cp target/classes examples/FullFlow.java`.
 
 ## License
 
